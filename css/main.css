@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-size: cover;
+  height: 95vh;
+  position: relative;
+}
+
+.heading-primary {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 1.1rem;
+}
+.heading-primary__text-1 {
+  color: #ce9797;
+}
+.heading-primary__text-2, .heading-primary__text-3 {
+  color: #413a3a;
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #ce9797;
+  line-height: 2;
+  text-align: left;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.u-margin-top-big {
+  margin-top: 8rem !important;
+}
+
+.u-margin-top-medium {
+  margin-top: 4rem !important;
+}
+
+.u-margin-top-small {
+  margin-top: 2rem !important;
+}
+
+.btn, .btn:link, .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  border-radius: 5rem;
+  border: none;
+  cursor: pointer;
+}
+.btn-submit {
+  position: absolute;
+  top: 0.3rem;
+  right: 2rem;
+  transform: scale(1.4);
+  background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+  box-shadow: 1rem 1rem 4rem 0.5rem rgba(65, 58, 58, 0.2);
+}
+
+.container {
+  display: block;
+  width: 37rem;
+}
+
+.form {
+  position: relative;
+}
+.form__input {
+  font-size: 1rem;
+  font-family: inherit;
+  color: inherit;
+  padding: 1.5rem 1rem;
+  padding-left: 2rem;
+  border-radius: 5rem;
+  background-image: linear-gradient(135deg, white, #fff5f5);
+  border: 1px solid #ce9797;
+  width: 80%;
+  display: inline-block;
+}
+.form__input:focus {
+  outline: none;
+}
+
+.header {
+  position: relative;
+}
+.header__logo {
+  position: absolute;
+  top: 5rem;
+  left: 10rem;
+}
+
+.heading-primary {
+  width: 30rem;
+}
+
+.footer {
+  margin-left: 35rem;
+}
+
+.section-about {
+  padding: 10rem 0;
+  width: 50%;
+  margin: 0 20rem;
+  position: relative;
+}
+
+.bg-card {
+  background-image: url("../images/hero-desktop.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  float: right;
+  z-index: 1;
+}
+
+/*# sourceMappingURL=main.css.map */

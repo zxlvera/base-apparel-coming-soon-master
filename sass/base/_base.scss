@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-size: cover;
+  height: 95vh;
+  position: relative;
+}

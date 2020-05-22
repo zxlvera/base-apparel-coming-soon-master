@@ -1,0 +1,13 @@
+.header {
+  position: relative;
+
+  &__logo {
+    position: absolute;
+    top: 5rem;
+    left: 10rem;
+  }
+}
+
+.heading-primary {
+  width: 30rem;
+}

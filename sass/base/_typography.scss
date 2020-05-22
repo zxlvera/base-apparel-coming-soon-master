@@ -1,0 +1,28 @@
+.heading-primary {
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: 1.1rem;
+
+  &__text-1 {
+    color: $color-primary-1;
+  }
+
+  &__text-2,
+  &__text-3 {
+    color: $color-neutral;
+  }
+}
+
+.paragraph {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: $color-primary-1;
+  line-height: 2;
+  text-align: left;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}

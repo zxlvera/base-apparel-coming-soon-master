@@ -1,0 +1,18 @@
+.section-about {
+  padding: 10rem 0;
+  width: 50%;
+  margin: 0 20rem;
+  position: relative;
+}
+
+.bg-card {
+  background-image: url("../images/hero-desktop.jpg");
+  background-size: cover;
+  height: 100%;
+  width: 40%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  float: right;
+  z-index: 1;
+}
